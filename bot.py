@@ -15,7 +15,7 @@ from telegram.ext import (
     filters,
 )
 
-TOKEN = os.getenv("BOT_T
+TOKEN = os.getenv("BOT_TOKEN")
 
 logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
@@ -94,4 +94,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-  
